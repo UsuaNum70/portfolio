@@ -1,0 +1,39 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex; /* Faz as informações das divs ficarem divididas*/
+    margin: 0;
+    padding: 0;
+    background-color: #979DAC;
+}
+.barralateral{
+    width: 200px;
+    height: 100vh;
+    background-color: #0466C8;
+    color: #000814;
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding: 20px;
+    border-radius: 10px;
+}
+.content{
+    margin-left: 220px;
+    padding: 30px;
+    width: calc(100% -220px);  /* resolve o problema de compatibilidade com outros dispostivos */
+    margin-top: 20px;
+    width: 100%;
+    color: #001233;
+}
+h1, p{
+    margin-top: 0;
+}
+.barralateral h1{
+    margin-bottom: 60px;
+}
+.content h2{
+    margin-top: 0;
+    padding: 0px 20px; /* deixando o primeiro padding em 0px não altera a altura, já o segundo, 20px, altera somente a lateral*/
+}
+.content p{
+    padding: 0px 20px;
+}
